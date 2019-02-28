@@ -1,4 +1,3 @@
-
 describe Product do
   describe 'check class Product' do
     it 'name, price and code' do

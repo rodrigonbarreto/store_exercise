@@ -1,4 +1,3 @@
-
 describe ProductRepository do
   describe 'check class ProductRepository' do
     it 'find_by_code' do
