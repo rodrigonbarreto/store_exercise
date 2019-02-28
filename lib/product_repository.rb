@@ -1,5 +1,3 @@
-require 'YAML'
-
 class ProductRepository
   class << self
     # find_by(code: 'code') ,find_by(name: 'name'), find_by(price: 222)

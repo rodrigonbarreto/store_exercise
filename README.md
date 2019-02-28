@@ -28,8 +28,21 @@ co.scan(item)
 co.scan(item)
 price = co.total
 ```
+
 # Test data:
 * Basket: GR1,SR1,GR1,GR1,CF1 -> Total price expected: £22.45
 * Basket: GR1,GR1 -> Total price expected: £3.11
 * Basket: SR1,SR1,GR1,SR1 -> Total price expected: £16.61
 * Basket: GR1,CF1,SR1,CF1,CF1  -> Total price expected: £30.57
+
+# running the program on terminal 
+
+ruby lib/program.rb 'code1' 'code2' ...(any params)
+
+ex: ```  ruby lib/program.rb 'GR1' 'SR1' 'GR1' 'GR1' 'CF1' ```
+
+# to run tests,
+
+```bundle install```
+
+and run ```rspec```
