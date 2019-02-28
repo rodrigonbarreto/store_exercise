@@ -17,6 +17,7 @@ require 'product'
 require 'product_repository'
 require 'rules/base_rule'
 require 'rules/one_item_free'
+require 'rules/product_addict'
 
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
