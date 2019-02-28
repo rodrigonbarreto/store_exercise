@@ -18,5 +18,12 @@ describe ProductRepository do
       expect(product.code).to eq('GR1')
       expect(product.name).to eq('Green tea')
     end
+
+    it 'get all' do
+      products = ProductRepository.all
+      expect(products).not_to be_empty
+      expect(products.size).to be >= 3
+      expect(products.first).to be_kind_of(Product)
+    end
   end
 end
