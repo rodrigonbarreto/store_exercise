@@ -7,7 +7,7 @@ class Checkout
   end
 
   def scan(product_code)
-    product = ProductRepository.find_by(code: product_code)
+    product = ProductRepository.find_by(code: product_code.upcase)
     raise "Product code: #{product_code} does not exist" unless product
 
     @basket << product
