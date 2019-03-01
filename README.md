@@ -52,3 +52,5 @@ ex: ```  ruby lib/program.rb 'GR1' 'SR1' 'GR1' 'GR1' 'CF1' ```
 ```bundle install```
 
 and run ```rspec```
+
+-- ruby version 2.3.1
