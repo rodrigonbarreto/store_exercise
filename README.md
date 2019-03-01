@@ -42,7 +42,7 @@ price = co.total
 * Basket: GR1,CF1,SR1,CF1,CF1  -> Total price expected: £30.57
 
 # Running the program on terminal 
-
+```bundle install ```
 ruby lib/program.rb 'code1' 'code2' ...(any params)
 
 ex: ```  ruby lib/program.rb 'GR1' 'SR1' 'GR1' 'GR1' 'CF1' ```
