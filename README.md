@@ -1,5 +1,11 @@
 # Store exercise
 
+* [Special conditions](#special-conditions)
+* [Interface](#the-interface-to-our-checkout-looks-like-this-shown-in-ruby)
+* [Test data](#test-data)
+* [Running the program on terminal](#running-the-program-on-terminal)
+* [Run the tests](#run-the-tests)
+
 You are the lead programmer for a small chain of supermarkets. You are required to make a simple
 cashier function that adds products to a cart and displays the total price.
 You have the following test products registered:
@@ -35,13 +41,13 @@ price = co.total
 * Basket: SR1,SR1,GR1,SR1 -> Total price expected: £16.61
 * Basket: GR1,CF1,SR1,CF1,CF1  -> Total price expected: £30.57
 
-# running the program on terminal 
+# Running the program on terminal 
 
 ruby lib/program.rb 'code1' 'code2' ...(any params)
 
 ex: ```  ruby lib/program.rb 'GR1' 'SR1' 'GR1' 'GR1' 'CF1' ```
 
-# to run tests,
+# Run the tests
 
 ```bundle install```
 
