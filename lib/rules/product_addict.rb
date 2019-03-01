@@ -4,8 +4,8 @@ module Rules
   class ProductAddict < BaseRule
     PRODUCT__CODE = 'CF1'.freeze
     def apply(basket)
-      number_strawberries = count_product(PRODUCT__CODE, basket)
-      number_strawberries >= 3 ? number_strawberries * product_discount : 0
+      number_products = count_product(PRODUCT__CODE, basket)
+      number_products >= 3 ? number_products * product_discount : 0
     end
 
     private
